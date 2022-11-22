@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,7 +23,12 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule.forRoot([
+      { path: 'home', component: HomeComponent },
+      { path: 'products', component: ProductsComponent },
+      { path: 'about', component: AboutComponent },
+    ]),
   ],
   providers: [],
   bootstrap: [AppComponent]
