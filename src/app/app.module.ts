@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { AddressComponent } from './address/address.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AddressComponent } from './address/address.component';
     AboutComponent,
     NavbarComponent,
     FooterComponent,
-    AddressComponent
+    AddressComponent,
+    CartComponent
   ],
   imports: [
     BrowserModule,
