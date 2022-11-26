@@ -5,3 +5,9 @@ export class Cup {
     imageLink!: string
     buyLink!: string
 }
+
+export var cups: Cup[]
+
+cups = [
+    
+]

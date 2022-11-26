@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Cup } from './Cup';
+import { Cup, cups } from './Cup';
 
 @Component({
   selector: 'app-products',
@@ -8,10 +8,9 @@ import { Cup } from './Cup';
 })
 export class ProductsComponent implements OnInit {
 
-  cups!: Cup[]
+  cups: Cup[] = cups
 
   constructor() {
-    this.cups = []
   }
 
   ngOnInit(): void {
