@@ -6,8 +6,7 @@ export class Cup {
     buyLink!: string
 }
 
-export var cups: Cup[]
-
-cups = [
-    
-]
+/**
+ * @type {Cup[]}
+ */
+export var cups: Cup[] = [];

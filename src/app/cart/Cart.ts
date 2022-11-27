@@ -1,6 +1,6 @@
-import { Cup } from "../products/Cup";
+import { Cup, cups } from "../products/Cup";
 
-export var cartArray: Object[] = [];
+export var cartArray: Object[] = cups;
 
 export function addItems(cup: Cup) {
     cartArray.push(cup)
