@@ -32,6 +32,8 @@ import { CartComponent } from './cart/cart.component';
       { path: 'home', component: HomeComponent },
       { path: 'products', component: ProductsComponent },
       { path: 'about', component: AboutComponent },
+      { path: 'cart', component: CartComponent },
+      { path: '', redirectTo: '/home', pathMatch: 'full' },
     ]),
   ],
   providers: [],
