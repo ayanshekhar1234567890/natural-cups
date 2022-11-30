@@ -4,6 +4,7 @@ export class Cup {
     price!: string
     imageLink!: string
     buyLink!: string
+    quantity!: string
 }
 
 /**

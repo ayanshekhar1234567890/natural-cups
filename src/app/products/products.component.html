@@ -6,6 +6,9 @@
           <p class="text-gray-700 text-base">
             {{cup.desc}}
           </p>
+          <select name="Quantity: ">
+            <option *ngFor="let option of options" [value]="option.key" (click)="click(option, cup)"></option>
+          </select>
           <button class="m-3 rounded-md border-2 border-sky-600 p-3 text-white font-bold font-mono bg-sky-600 hover:bg-sky-800 hover:border-sky-800">Buy</button>
         </div>
       </div>
