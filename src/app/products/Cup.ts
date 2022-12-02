@@ -10,4 +10,13 @@ export class Cup {
 /**
  * @type {Cup[]}
  */
-export var cups: Cup[] = [];
+export var cups: Cup[] = [
+    {
+        name: "Guava Cup",
+        desc: "This cup is made out of Guava.",
+        price: "40 Rs. / Cup",
+        imageLink: "",
+        buyLink: "",
+        quantity: "00"
+    }
+];
